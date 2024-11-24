@@ -1,0 +1,45 @@
+﻿.sin-permiso-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.sin-permiso-content {
+    background: #222;
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0 15px 25px rgba(0, 0, 0, 0.5);
+    max-width: 400px;
+    width: 100%;
+}
+
+    .sin-permiso-content h1 {
+        font-size: 2.5em;
+        color: #ff4d4d;
+        margin-bottom: 20px;
+    }
+
+    .sin-permiso-content p {
+        font-size: 1.2em;
+        margin-bottom: 20px;
+    }
+
+.btn-regresar {
+    display: inline-block;
+    padding: 10px 20px;
+    color: #fff;
+    background: #0f0;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 4px;
+    transition: background 0.3s ease;
+}
+
+    .btn-regresar:hover {
+        background: #00b300;
+    }
